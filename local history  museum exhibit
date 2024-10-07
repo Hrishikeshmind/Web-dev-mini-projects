@@ -1,0 +1,204 @@
+local_history_museum/
+│
+├── index.html
+├── exhibit1.html
+├── exhibit2.html
+├── exhibit3.html
+└── styles.css
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local History Museum Exhibit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Local History Museum Exhibit</h1>
+        <nav>
+            <ul>
+                <li><a href="exhibit1.html">Exhibit 1</a></li>
+                <li><a href="exhibit2.html">Exhibit 2</a></li>
+                <li><a href="exhibit3.html">Exhibit 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to the Local History Museum Exhibit</h2>
+        <p>Explore the rich history of our community through various exhibits highlighting important events, places, and personalities.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Local History Museum</p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibit 1 - Local History Museum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exhibit 1: The Founding of Our Town</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exhibit2.html">Exhibit 2</a></li>
+                <li><a href="exhibit3.html">Exhibit 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Overview</h2>
+        <p>This exhibit showcases the founding of our town in 1824, highlighting key figures and events that shaped its early days.</p>
+        <img src="founding_image.jpg" alt="Founding of the town" />
+        <h3>Key Figures</h3>
+        <ul>
+            <li>John Doe - Town Founder</li>
+            <li>Jane Smith - First Teacher</li>
+            <li>Tom Brown - Blacksmith</li>
+        </ul>
+        <h3>Significant Events</h3>
+        <ol>
+            <li>Establishment of the first school in 1825.</li>
+            <li>The Great Fire of 1830.</li>
+            <li>Incorporation of the town in 1835.</li>
+        </ol>
+    </main>
+    <footer>
+        <p>&copy; 2024 Local History Museum</p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibit 2 - Local History Museum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exhibit 2: The Industrial Revolution in Our Town</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exhibit1.html">Exhibit 1</a></li>
+                <li><a href="exhibit3.html">Exhibit 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Overview</h2>
+        <p>This exhibit explores how the Industrial Revolution transformed our town from an agricultural community to an industrial hub in the late 1800s.</p>
+        <img src="industrial_revolution_image.jpg" alt="Industrial Revolution" />
+        <h3>Key Industries</h3>
+        <ul>
+            <li>Textiles</li>
+            <li>Manufacturing</li>
+            <li>Mining</li>
+        </ul>
+        <h3>Impact on Society</h3>
+        <p>The influx of jobs led to significant population growth and urbanization in the area.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Local History Museum</p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibit 3 - Local History Museum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exhibit 3: Cultural Heritage of Our Town</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exhibit1.html">Exhibit 1</a></li>
+                <li><a href="exhibit2.html">Exhibit 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Overview</h2>
+        <p>This exhibit showcases the rich cultural heritage of our town, including festivals, cuisine, and traditions.</p>
+        <img src="cultural_heritage_image.jpg" alt="Cultural Heritage" />
+        <h3>Festivals</h3>
+        <ul>
+            <li>Harvest Festival</li>
+            <li>Winter Wonderland Celebration</li>
+            <li>Annual Arts Fair</li>
+        </ul>
+        <h3>Traditional Cuisine</h3>
+        <p>Discover our local dishes, such as:</p>
+        <ol>
+            <li>Apple Pie</li>
+            <li>Potato Pancakes</li>
+            <li>Homemade Sausage</li>
+        </ol>
+    </main>
+    <footer>
+        <p>&copy; 2024 Local History Museum</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #f4f4f4;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
